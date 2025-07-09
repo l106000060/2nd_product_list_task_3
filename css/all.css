@@ -1,0 +1,257 @@
+.nav-bar {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.logo {
+  max-width: 105px;
+  margin-right: 3rem;
+}
+
+.logo-link {
+  padding: 8px 12px;
+}
+
+.nav-bar,
+.nav-brand,
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  margin-right: 2.5rem;
+}
+
+.nav-list a {
+  color: var(--tenth-color);
+  padding: 0.75rem 0;
+}
+
+.nav-list a:hover,
+.member-link:hover {
+  background: var(--fifth-color);
+}
+
+.member {
+  margin-left: auto;
+}
+
+.member-link {
+  padding: 0.75rem;
+}
+
+.member-link img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* main區塊 */
+
+.main {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* l-tab區塊 */
+
+.l-tab {
+  margin-bottom: 1.5rem;
+}
+
+.tab-active {
+  color: var(--nineth-color);
+  display: inline-block;
+}
+
+.tab-focus {
+  color: var(--tenth-color);
+  display: inline-block;
+}
+
+.tab-slash {
+  padding: 0 0.75rem;
+  color: var(--fifth-color);
+}
+
+/* l-tab-title區塊 */
+
+.l-tab-title {
+  padding: 7px 0;
+}
+
+.l-tab-title {
+  margin-bottom: 1.5rem;
+}
+
+.l-tab-title h2 {
+  color: var(--tenth-color);
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+/* l-shoes的選單區塊 */
+
+.shoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.l-shoes {
+  margin-bottom: 3rem;
+}
+
+.shoes-list li {
+  padding-right: 4.89rem;
+  margin-bottom: 1rem;
+}
+
+.shoes-link {
+  padding: 0.75rem 0;
+  color: var(--tenth-color);
+  font-weight: 500;
+  text-align: left;
+}
+
+.shoes-link:hover {
+  background: var(--fifth-color);
+}
+
+.shoes-link:focus {
+  color: var(--third-color);
+}
+
+/* product-list的商品區塊 */
+
+.product-list {
+  display: flex;
+  max-width: 1076px;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.product-item {
+  max-width: calc((1076px - 48px) / 3);
+}
+
+.card-header {
+  margin-bottom: 0.75rem;
+}
+
+.card-header img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.product-name {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.product-price {
+  font-weight: 500;
+}
+
+/* 選頁區塊 */
+
+.pagination-list {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-link img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.pagination-link {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-link:hover {
+  background: var(--fifth-color);
+}
+
+.page-num:focus {
+  background: var(--secondary-color);
+}
+
+/* discount區塊區塊 */
+
+.l-discount {
+  padding: 1.5rem 0;
+  background: var(--primary-color);
+}
+
+.discount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.discount-content {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.discount-btn {
+  padding: 0.75rem 1.5rem;
+  background: #000;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 0.25rem;
+}
+
+.discount-btn:hover {
+  background: var(--nineth-color);
+}
+
+/* footer區塊 */
+
+.footer {
+  padding: 4rem 0;
+}
+
+.footer-nav {
+  margin-bottom: 1.5rem;
+}
+
+.footer-nav-bar {
+  max-width: 1296px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer-nav-list {
+  margin-left: auto;
+}
+
+/* copyright區塊 */
+
+.copyright {
+  padding-top: 2rem;
+  border-top: solid 1px var(--fifth-color);
+  max-width: 1296px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copyright-txt p {
+  font-size: 0.875rem;
+  color: var(--nineth-color);
+}
+
+.copyright-txt p:first-of-type {
+  margin-bottom: 0.25rem;
+}
